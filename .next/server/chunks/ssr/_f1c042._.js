@@ -1,85 +1,9 @@
 module.exports = {
 
-"[project]/app/page.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
-"use strict";
+"[project]/app/page.tsx [app-rsc] (ecmascript)": (function(__turbopack_context__) {
 
-var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, z: __turbopack_require_stub__ } = __turbopack_context__;
+var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, m: module, e: exports, t: __turbopack_require_real__ } = __turbopack_context__;
 {
-__turbopack_esm__({
-    "exerciciosPorTreino": (()=>exerciciosPorTreino)
-});
-const exerciciosPorTreino = {
-    Treino_Abdomen: [
-        {
-            nome: "Abdominal Canivete",
-            videoUrl: "/Treino_Abdomen/Abdominal_canivete.mp4"
-        },
-        {
-            nome: "Prancha",
-            videoUrl: "/Treino_Abdomen/Prancha.mp4"
-        }
-    ],
-    Treino_Bicpes: [
-        {
-            nome: "Rosca Direta",
-            videoUrl: "/Treino_Bicpes/Rosca_Direta.mp4"
-        },
-        {
-            nome: "Rosca Alternada",
-            videoUrl: "/Treino_Bicpes/Rosca_Alternada.mp4"
-        }
-    ],
-    Treino_Costas: [
-        {
-            nome: "Puxada Frontal",
-            videoUrl: "/Treino_Costas/Puxada_Frontal.mp4"
-        },
-        {
-            nome: "Remada Baixa",
-            videoUrl: "/Treino_Costas/Remada_Baixa.mp4"
-        }
-    ],
-    Treino_Ombro: [
-        {
-            nome: "Desenvolvimento",
-            videoUrl: "/Treino_Ombro/Desenvolvimento.mp4"
-        },
-        {
-            nome: "Elevação Lateral",
-            videoUrl: "/Treino_Ombro/Elevacao_Lateral.mp4"
-        }
-    ],
-    Treino_Peito: [
-        {
-            nome: "Supino Reto",
-            videoUrl: "/Treino_Peito/Supino_Reto.mp4"
-        },
-        {
-            nome: "Crucifixo",
-            videoUrl: "/Treino_Peito/Crucifixo.mp4"
-        }
-    ],
-    Treino_Pernas: [
-        {
-            nome: "Agachamento",
-            videoUrl: "/Treino_Pernas/Agachamento.mp4"
-        },
-        {
-            nome: "Leg Press",
-            videoUrl: "/Treino_Pernas/Leg_Press.mp4"
-        }
-    ],
-    Treino_Triceps: [
-        {
-            nome: "Extensão de Tríceps",
-            videoUrl: "/Treino_Triceps/Extensao_Triceps.mp4"
-        },
-        {
-            nome: "Corda",
-            videoUrl: "/Treino_Triceps/Corda.mp4"
-        }
-    ]
-};
 }}),
 "[project]/app/page.tsx [app-rsc] (ecmascript, Next.js server component)": ((__turbopack_context__) => {
 

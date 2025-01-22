@@ -512,52 +512,284 @@ const exerciciosPorTreino = {
     ],
     Treino_Costas: [
         {
-            nome: "Puxada Frontal",
-            videoUrl: "/Treino_Costas/Puxada_Frontal.mp4"
+            nome: "Encolhimento de ombros com halteres",
+            videoUrl: "/Treino_Costas/Encolhimento de ombros com halteres.mp4"
         },
         {
-            nome: "Remada Baixa",
-            videoUrl: "/Treino_Costas/Remada_Baixa.mp4"
+            nome: "Extensão de ombros com elástico",
+            videoUrl: "/Treino_Costas/Extensão de ombros com elástico.mp4"
+        },
+        {
+            nome: "Pulldown na polia com barra",
+            videoUrl: "/Treino_Costas/Pulldown na polia com barra.mp4"
+        },
+        {
+            nome: "Pullover com halter",
+            videoUrl: "/Treino_Costas/Pullover com halter.mp4"
+        },
+        {
+            nome: "Puxada aberta com barra romana",
+            videoUrl: "/Treino_Costas/Encolhimento de ombros com halteres.mp4"
+        },
+        {
+            nome: "Puxada aberta com pegada pronada",
+            videoUrl: "/Treino_Costas/Puxada aberta com pegada pronada.mp4"
+        },
+        {
+            nome: "Puxada aberta no graviton",
+            videoUrl: "/Treino_Costas/Puxada aberta no graviton.mp4"
+        },
+        {
+            nome: "Puxada fechada com triângulo",
+            videoUrl: "/Treino_Costas/Puxada fechada com triângulo.mp4"
+        },
+        {
+            nome: "Puxada na barra fixa pegada supinada",
+            videoUrl: "/Treino_Costas/Puxada na barra fixa pegada supinada.mp4"
+        },
+        {
+            nome: "Remada curvada com barra pegada supinada",
+            videoUrl: "/Treino_Costas/Remada curvada com barra pegada supinada.mp4"
+        },
+        {
+            nome: "Remada curvada com halteres",
+            videoUrl: "/Treino_Costas/Remada curvada com halteres.mp4"
+        },
+        {
+            nome: "Remada fechada com halteres no banco inclinado",
+            videoUrl: "/Treino_Costas/Remada fechada com halteres no banco inclinado.mp4"
+        },
+        {
+            nome: "Remada fechada na máquina articulada",
+            videoUrl: "/Treino_Costas/Remada fechada na máquina articulada.mp4"
+        },
+        {
+            nome: "Remada fechada no pulley baixo",
+            videoUrl: "/Treino_Costas/Remada fechada no pulley baixo.mp4"
+        },
+        {
+            nome: "Remada fechada unilateral no banco",
+            videoUrl: "/Treino_Costas/Remada fechada unilateral no banco.mp4"
         }
     ],
     Treino_Ombro: [
         {
-            nome: "Desenvolvimento",
-            videoUrl: "/Treino_Ombro/Desenvolvimento.mp4"
+            nome: "Agachamento com desenvolvimento",
+            videoUrl: "/Treino_Ombro/Agachamento com desenvolvimento.mp4"
         },
         {
-            nome: "Elevação Lateral",
-            videoUrl: "/Treino_Ombro/Elevacao_Lateral.mp4"
+            nome: "Crucifixo inverso na máquina pegada neutra",
+            videoUrl: "/Treino_Ombro/Crucifixo inverso na máquina pegada neutra.mp4"
+        },
+        {
+            nome: "Crucifixo invertido com elástico",
+            videoUrl: "/Treino_Ombro/Crucifixo invertido com elástico.mp4"
+        },
+        {
+            nome: "Desenvolvimento aberto com halteres sentado",
+            videoUrl: "/Treino_Ombro/Desenvolvimento aberto com halteres sentado.mp4"
+        },
+        {
+            nome: "Desenvolvimento com barra",
+            videoUrl: "/Treino_Ombro/Desenvolvimento com barra.mp4"
+        },
+        {
+            nome: "Desenvolvimento com halteres em pé",
+            videoUrl: "/Treino_Ombro/Desenvolvimento com halteres em pé.mp4"
+        },
+        {
+            nome: "Desenvolvimento na máquina",
+            videoUrl: "/Treino_Ombro/Desenvolvimento na máquina.mp4"
+        },
+        {
+            nome: "Elevação frontal de ombros com elástico",
+            videoUrl: "/Treino_Ombro/Elevação frontal de ombros com elástico.mp4"
+        },
+        {
+            nome: "Elevação frontal de ombros com halteres",
+            videoUrl: "/Treino_Ombro/Elevação frontal de ombros com halteres.mp4"
+        },
+        {
+            nome: "Elevação frontal na polia com barra reta",
+            videoUrl: "/Treino_Ombro/Elevação frontal na polia com barra reta.mp4"
+        },
+        {
+            nome: "Elevação lateral com halteres em pé",
+            videoUrl: "/Treino_Ombro/Elevação lateral com halteres em pé.mp4"
+        },
+        {
+            nome: "Encolhimento de ombros com halteres",
+            videoUrl: "/Treino_Ombro/Encolhimento de ombros com halteres.mp4"
+        },
+        {
+            nome: "Extensão de ombros com elástico",
+            videoUrl: "/Treino_Ombro/Extensão de ombros com elástico.mp4"
+        },
+        {
+            nome: "Remada alta com barra",
+            videoUrl: "/Treino_Ombro/Remada alta com barra.mp4"
         }
     ],
     Treino_Peito: [
         {
-            nome: "Supino Reto",
-            videoUrl: "/Treino_Peito/Supino_Reto.mp4"
+            nome: "Crucifixo com halteres",
+            videoUrl: "/Treino_Peito/Crucifixo com halteres.mp4"
         },
         {
-            nome: "Crucifixo",
-            videoUrl: "/Treino_Peito/Crucifixo.mp4"
+            nome: "Crucifixo inclinado no Cross",
+            videoUrl: "/Treino_Peito/Crucifixo inclinado no Cross.mp4"
+        },
+        {
+            nome: "Crucifixo na máquina",
+            videoUrl: "/Treino_Peito/Crucifixo na máquina.mp4"
+        },
+        {
+            nome: "Flexão de braços com apoio nos joelhos",
+            videoUrl: "/Treino_Peito/Flexão de braços com apoio nos joelhos.mp4"
+        },
+        {
+            nome: "Flexão de braços pliométrica",
+            videoUrl: "/Treino_Peito/Flexão de braços pliométrica.mp4"
+        },
+        {
+            nome: "Flexão de braços",
+            videoUrl: "/Treino_Peito/Flexão de braços.mp4"
+        },
+        {
+            nome: "Supino inclinado com barra",
+            videoUrl: "/Treino_Peito/Supino inclinado com barra.mp4"
+        },
+        {
+            nome: "Supino inclinado com halteres",
+            videoUrl: "/Treino_Peito/Supino inclinado com halteres.mp4"
+        },
+        {
+            nome: "Supino inclinado no smith",
+            videoUrl: "/Treino_Peito/Supino inclinado no smith.mp4"
+        },
+        {
+            nome: "Supino na máquina",
+            videoUrl: "/Treino_Peito/Supino na máquina.mp4"
+        },
+        {
+            nome: "Supino reto com barra livre",
+            videoUrl: "/Treino_Peito/Supino reto com barra livre.mp4"
+        },
+        {
+            nome: "Supino reto com halteres no banco",
+            videoUrl: "/Treino_Peito/Supino reto com halteres no banco.mp4"
+        },
+        {
+            nome: "Supino reto no smith",
+            videoUrl: "/Treino_Peito/Supino reto no smith.mp4"
         }
     ],
     Treino_Pernas: [
         {
-            nome: "Agachamento",
-            videoUrl: "/Treino_Pernas/Agachamento.mp4"
+            nome: "Agachamento afundo no smith",
+            videoUrl: "/Treino_Pernas/Agachamento afundo no smith.mp4"
         },
         {
-            nome: "Leg Press",
-            videoUrl: "/Treino_Pernas/Leg_Press.mp4"
+            nome: "Agachamento com abdução de quadril com elástico",
+            videoUrl: "/Treino_Pernas/Agachamento com abdução de quadril com elástico.mp4"
+        },
+        {
+            nome: "Agachamento frontal com barra (front squat)",
+            videoUrl: "/Treino_Pernas/Agachamento frontal com barra (front squat).mp4"
+        },
+        {
+            nome: "Cadeira abdutora",
+            videoUrl: "/Treino_Pernas/Cadeira abdutora.mp4"
+        },
+        {
+            nome: "Cadeira adutora",
+            videoUrl: "/Treino_Pernas/Cadeira adutora.mp4"
+        },
+        {
+            nome: "Cadeira extensora unilateral",
+            videoUrl: "/Treino_Pernas/Cadeira extensora unilateral.mp4"
+        },
+        {
+            nome: "Cadeira extensora",
+            videoUrl: "/Treino_Pernas/Cadeira extensora.mp4"
+        },
+        {
+            nome: "Elevação pélvica alternada no solo",
+            videoUrl: "/Treino_Pernas/Elevação pélvica alternada no solo.mp4"
+        },
+        {
+            nome: "Elevação pélvica na máquina",
+            videoUrl: "/Treino_Pernas/Elevação pélvica na máquina.mp4"
+        },
+        {
+            nome: "Extensão de quadril coice na polia",
+            videoUrl: "/Treino_Pernas/Extensão de quadril coice na polia.mp4"
+        },
+        {
+            nome: "Extensão de quadril com apoio em prancha",
+            videoUrl: "/Treino_Pernas/Extensão de quadril com apoio em prancha.mp4"
+        },
+        {
+            nome: "Extensão lombar no banco Romano",
+            videoUrl: "/Treino_Pernas/Extensão lombar no banco Romano.mp4"
+        },
+        {
+            nome: "Leg Press 45 unilateral",
+            videoUrl: "/Treino_Pernas/Leg Press 45 unilateral.mp4"
+        },
+        {
+            nome: "Leg press 45º",
+            videoUrl: "/Treino_Pernas/Leg press 45º.mp4"
+        },
+        {
+            nome: "Leg press horizontal",
+            videoUrl: "/Treino_Pernas/Leg press horizontal.mp4"
+        },
+        {
+            nome: "Levantamento terra com barra",
+            videoUrl: "/Treino_Pernas/Levantamento terra com barra.mp4"
+        },
+        {
+            nome: "Lunge alternado (passada para trás)",
+            videoUrl: "/Treino_Pernas/Lunge alternado (passada para trás).mp4"
+        },
+        {
+            nome: "Mesa flexora unilateral",
+            videoUrl: "/Treino_Pernas/Mesa flexora unilateral.mp4"
+        },
+        {
+            nome: "Mesa flexora",
+            videoUrl: "/Treino_Pernas/Mesa flexora.mp4"
         }
     ],
     Treino_Triceps: [
         {
-            nome: "Extensão de Tríceps",
-            videoUrl: "/Treino_Triceps/Extensao_Triceps.mp4"
+            nome: "Tríceps curvado com halter",
+            videoUrl: "/Treino_Triceps/Tríceps curvado com halter.mp4"
         },
         {
-            nome: "Corda",
-            videoUrl: "/Treino_Triceps/Corda.mp4"
+            nome: "Tríceps francês com corda",
+            videoUrl: "/Treino_Triceps/Tríceps francês com corda.mp4"
+        },
+        {
+            nome: "Tríceps francês com halter",
+            videoUrl: "/Treino_Triceps/Tríceps francês com halter.mp4"
+        },
+        {
+            nome: "Tríceps na paralela",
+            videoUrl: "/Treino_Triceps/Tríceps na paralela.mp4"
+        },
+        {
+            nome: "Tríceps na polia com barra reta",
+            videoUrl: "/Treino_Triceps/Tríceps na polia com barra reta.mp4"
+        },
+        {
+            nome: "Tríceps testa com barra W",
+            videoUrl: "/Treino_Triceps/Tríceps testa com barra W.mp4"
+        },
+        {
+            nome: "Tríceps testa com barra",
+            videoUrl: "/Treino_Triceps/Tríceps testa com barra.mp4"
         }
     ]
 };
@@ -591,7 +823,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 function WorkoutApp() {
     const [selectedTreino, setSelectedTreino] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
     const [selectedVideo, setSelectedVideo] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
-    const [isOpen, setIsOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(true);
+    const [isOpen, setIsOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const treinos = [
         "Treino_Abdomen",
         "Treino_Bicpes",

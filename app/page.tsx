@@ -11,7 +11,7 @@ import { exerciciosPorTreino } from "./components/ExercicioList"
 export default function WorkoutApp() {
   const [selectedTreino, setSelectedTreino] = useState<string | null>(null)
   const [selectedVideo, setSelectedVideo] = useState<{ nome: string; url: string } | null>(null)
-  const [isOpen, setIsOpen] = useState(true)
+  const [isOpen, setIsOpen] = useState(false)
 
   const treinos = [
     "Treino_Abdomen",

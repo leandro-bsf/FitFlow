@@ -115,13 +115,13 @@ export default function WorkoutApp() {
                     <span className="font-medium text-lg">{exercicio.nome}</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <Button
-                      onClick={() => handleTimerToggle(exercicio.nome)}
-                      variant={runningTimers[exercicio.nome] ? "destructive" : "primary"}
-                      className="w-24"
-                    >
-                      {runningTimers[exercicio.nome] ? "Pausar" : "Iniciar"}
-                    </Button>
+                  <Button
+                    onClick={() => handleTimerToggle(exercicio.nome)}
+                    variant={runningTimers[exercicio.nome] ? "destructive" : "default"} // Alterado para "default"
+                className="w-24"
+                >
+                   {runningTimers[exercicio.nome] ? "Pausar" : "Iniciar"}
+                  </Button>
                     <Button
                       onClick={() => setSelectedVideo({ nome: exercicio.nome, url: exercicio.videoUrl })}
                       variant="outline"

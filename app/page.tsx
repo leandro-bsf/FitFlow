@@ -67,11 +67,12 @@ export default function WorkoutApp() {
     </ScrollArea>
   )
 
-  const filteredExercicios = selectedTreino
-    ? exerciciosPorTreino[selectedTreino].filter((exercicio) =>
-        exercicio.nome.toLowerCase().includes(searchQuery.toLowerCase())
-      )
-    : []
+  const filteredExercicios =
+    selectedTreino && selectedTreino in exerciciosPorTreino
+      ? exerciciosPorTreino[selectedTreino as keyof typeof exerciciosPorTreino].filter((exercicio) =>
+          exercicio.nome.toLowerCase().includes(searchQuery.toLowerCase())
+        )
+      : []
 
   return (
     <div className="flex h-screen bg-gray-100">

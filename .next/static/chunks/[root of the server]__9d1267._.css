@@ -565,6 +565,10 @@ body {
   width: .625rem;
 }
 
+.w-24 {
+  width: 6rem;
+}
+
 .w-3\/4 {
   width: 75%;
 }
@@ -583,10 +587,6 @@ body {
 
 .w-full {
   width: 100%;
-}
-
-.w-24 {
-  width: 6rem;
 }
 
 .max-w-5xl {
@@ -647,12 +647,12 @@ body {
   gap: .5rem;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
 .gap-3 {
   gap: .75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .space-y-1\.5 > :not([hidden]) ~ :not([hidden]) {
@@ -675,6 +675,10 @@ body {
   white-space: nowrap;
 }
 
+.rounded {
+  border-radius: .25rem;
+}
+
 .rounded-\[inherit\] {
   border-radius: inherit;
 }
@@ -693,10 +697,6 @@ body {
 
 .rounded-sm {
   border-radius: calc(var(--radius)  - 4px);
-}
-
-.rounded {
-  border-radius: .25rem;
 }
 
 .border {
@@ -769,6 +769,10 @@ body {
   padding: 0;
 }
 
+.p-2 {
+  padding: .5rem;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -783,10 +787,6 @@ body {
 
 .p-\[1px\] {
   padding: 1px;
-}
-
-.p-2 {
-  padding: .5rem;
 }
 
 .px-3 {
@@ -916,15 +916,15 @@ body {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-sm {
-  --tw-shadow: 0 1px 2px 0 #0000000d;
-  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px #0000001a, 0 2px 4px -2px #0000001a;
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-sm {
+  --tw-shadow: 0 1px 2px 0 #0000000d;
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 

@@ -108,15 +108,15 @@ export default function WorkoutApp() {
       </div>
 
       <Dialog open={!!selectedVideo} onOpenChange={() => setSelectedVideo(null)}>
-        <DialogContent>
-          <DialogHeader>
-            <DialogTitle>{selectedVideo ? `Vídeo: ${selectedVideo.nome}` : "Vídeo do Exercício"}</DialogTitle>
-          </DialogHeader>
-          {selectedVideo && (
-            <video src={selectedVideo.url} controls className="w-full rounded-lg" />
-          )}
-        </DialogContent>
-      </Dialog>
+  <DialogContent className="max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl w-full">
+    <DialogHeader>
+      <DialogTitle>{selectedVideo ? `Vídeo: ${selectedVideo.nome}` : "Vídeo do Exercício"}</DialogTitle>
+    </DialogHeader>
+    {selectedVideo && (
+      <video src={selectedVideo.url} controls className="w-full rounded-lg" />
+    )}
+  </DialogContent>
+</Dialog>
     </div>
   )
 }

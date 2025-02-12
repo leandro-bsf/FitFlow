@@ -818,6 +818,7 @@ function WorkoutApp() {
                 open: !!selectedVideo,
                 onOpenChange: ()=>setSelectedVideo(null),
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$dialog$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DialogContent"], {
+                    className: "max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl w-full",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$dialog$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DialogHeader"], {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$dialog$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DialogTitle"], {
@@ -825,12 +826,12 @@ function WorkoutApp() {
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 113,
-                                columnNumber: 13
+                                columnNumber: 7
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 112,
-                            columnNumber: 11
+                            columnNumber: 5
                         }, this),
                         selectedVideo && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
                             src: selectedVideo.url,
@@ -839,13 +840,13 @@ function WorkoutApp() {
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 116,
-                            columnNumber: 13
+                            columnNumber: 7
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/page.tsx",
                     lineNumber: 111,
-                    columnNumber: 9
+                    columnNumber: 3
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",

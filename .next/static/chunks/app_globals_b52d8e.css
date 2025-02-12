@@ -509,6 +509,10 @@ body {
   max-width: 32rem;
 }
 
+.max-w-md {
+  max-width: 28rem;
+}
+
 .flex-1 {
   flex: 1;
 }
@@ -1101,6 +1105,10 @@ body {
 }
 
 @media (width >= 640px) {
+  .sm\:max-w-lg {
+    max-width: 32rem;
+  }
+
   .sm\:max-w-sm {
     max-width: 24rem;
   }
@@ -1128,6 +1136,12 @@ body {
   }
 }
 
+@media (width >= 768px) {
+  .md\:max-w-xl {
+    max-width: 36rem;
+  }
+}
+
 @media (width >= 1024px) {
   .lg\:block {
     display: block;
@@ -1135,6 +1149,10 @@ body {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:max-w-2xl {
+    max-width: 42rem;
   }
 
   .lg\:pt-8 {

@@ -113,7 +113,7 @@ export default function WorkoutApp() {
       <DialogTitle>{selectedVideo ? `Vídeo: ${selectedVideo.nome}` : "Vídeo do Exercício"}</DialogTitle>
     </DialogHeader>
     {selectedVideo && (
-      <video src={selectedVideo.url} controls className="w-full rounded-lg" />
+      <video src={selectedVideo.url} controls playsInline className="w-full rounded-lg" />
     )}
   </DialogContent>
 </Dialog>

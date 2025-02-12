@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { ScrollArea } from "@/components/ui/scroll-area"
@@ -13,31 +13,8 @@ export default function WorkoutApp() {
   const [selectedVideo, setSelectedVideo] = useState<{ nome: string; url: string } | null>(null)
   const [isOpen, setIsOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState("")
-  const [exercicioTimers, setExercicioTimers] = useState<{ [key: string]: number }>({})
-  const [runningTimers, setRunningTimers] = useState<{ [key: string]: boolean }>({})
-  const [totalTime, setTotalTime] = useState(0)
 
   const treinosNomes = Object.keys(exerciciosPorTreino)
-
-  useEffect(() => {
-    const total = Object.values(exercicioTimers).reduce((acc, time) => acc + time, 0)
-    setTotalTime(total)
-  }, [exercicioTimers])
-
-  const handleTimerToggle = (nome: string) => {
-    if (runningTimers[nome]) {
-      setRunningTimers((prev) => ({ ...prev, [nome]: false }))
-    } else {
-      setRunningTimers((prev) => ({ ...prev, [nome]: true }))
-      const interval = setInterval(() => {
-        setExercicioTimers((prev) => ({ ...prev, [nome]: (prev[nome] || 0) + 1 }))
-      }, 1000)
-      setTimeout(() => {
-        clearInterval(interval)
-        setRunningTimers((prev) => ({ ...prev, [nome]: false }))
-      }, 600000) // Limite de 10 minutos por exercício
-    }
-  }
 
   const Sidebar = () => (
     <ScrollArea className="h-full">
@@ -114,34 +91,18 @@ export default function WorkoutApp() {
                   <div className="flex flex-col flex-1">
                     <span className="font-medium text-lg">{exercicio.nome}</span>
                   </div>
-                  <div className="flex items-center gap-3">
                   <Button
-                    onClick={() => handleTimerToggle(exercicio.nome)}
-                    variant={runningTimers[exercicio.nome] ? "destructive" : "default"} // Alterado para "default"
-                className="w-24"
-                >
-                   {runningTimers[exercicio.nome] ? "Pausar" : "Iniciar"}
+                    onClick={() => setSelectedVideo({ nome: exercicio.nome, url: exercicio.videoUrl })}
+                    variant="outline"
+                    className="w-24"
+                  >
+                    Ver Vídeo
                   </Button>
-                    <Button
-                      onClick={() => setSelectedVideo({ nome: exercicio.nome, url: exercicio.videoUrl })}
-                      variant="outline"
-                      className="w-24"
-                    >
-                      Ver Vídeo
-                    </Button>
-                    <span className="text-sm">{exercicioTimers[exercicio.nome] || 0} s</span>
-                  </div>
                 </div>
               ))}
             </div>
           ) : (
             <div className="text-center text-gray-500">Selecione um treino para começar</div>
-          )}
-
-          {selectedTreino && filteredExercicios.length > 0 && (
-            <div className="mt-6 text-lg font-bold">
-              Tempo total do treino: {totalTime} segundos
-            </div>
           )}
         </div>
       </div>

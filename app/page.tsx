@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogClose } from "@/components/ui/dialog"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Menu, X } from "lucide-react"
@@ -47,7 +47,7 @@ export default function WorkoutApp() {
   const filteredExercicios =
     selectedTreino && selectedTreino in exerciciosPorTreino
       ? exerciciosPorTreino[selectedTreino as keyof typeof exerciciosPorTreino].filter((exercicio) =>
-          exercicio.nome.toLowerCase().includes(searchQuery.toLowerCase())
+          exercicio.nome.toLowerCase().includes(searchQuery.toLowerCase()),
         )
       : []
 
@@ -87,7 +87,10 @@ export default function WorkoutApp() {
           {selectedTreino ? (
             <div className="grid gap-4">
               {filteredExercicios.map((exercicio) => (
-                <div key={exercicio.nome} className="flex items-center justify-between p-4 bg-white rounded-lg shadow-md">
+                <div
+                  key={exercicio.nome}
+                  className="flex items-center justify-between p-4 bg-white rounded-lg shadow-md"
+                >
                   <div className="flex flex-col flex-1">
                     <span className="font-medium text-lg">{exercicio.nome}</span>
                   </div>
@@ -108,15 +111,22 @@ export default function WorkoutApp() {
       </div>
 
       <Dialog open={!!selectedVideo} onOpenChange={() => setSelectedVideo(null)}>
-  <DialogContent className="max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl w-full">
-    <DialogHeader>
-      <DialogTitle>{selectedVideo ? `Vídeo: ${selectedVideo.nome}` : "Vídeo do Exercício"}</DialogTitle>
-    </DialogHeader>
-    {selectedVideo && (
-      <video src={selectedVideo.url} controls playsInline className="w-full rounded-lg" />
-    )}
-  </DialogContent>
-</Dialog>
+        <DialogContent className="max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl">
+          <DialogHeader className="space-y-3 pb-4">
+            <DialogTitle className="text-lg font-semibold">{selectedVideo?.nome}</DialogTitle>
+          </DialogHeader>
+          {selectedVideo && (
+            <div className="relative aspect-video">
+              <video src={selectedVideo.url} controls playsInline className="w-full h-full rounded-lg" />
+            </div>
+          )}
+          <DialogClose className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground">
+            <X className="h-4 w-4" />
+            <span className="sr-only">Close</span>
+          </DialogClose>
+        </DialogContent>
+      </Dialog>
     </div>
   )
 }
+

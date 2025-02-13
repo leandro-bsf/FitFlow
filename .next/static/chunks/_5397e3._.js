@@ -610,6 +610,76 @@ const exerciciosPorTreino = {
             nome: "Prancha lateral com abdução de quadril",
             videoUrl: "/Treino_Abdomen/Prancha lateral com abdução de quadril.mp4"
         }
+    ],
+    Treino_Crosfit: [
+        {
+            nome: "Burpee",
+            videoUrl: "/Treino_Crosfit/Burpee.mp4"
+        },
+        {
+            nome: "Clean",
+            videoUrl: "/Treino_Crosfit/Clean.mp4"
+        },
+        {
+            nome: "O Agachamento Acima Da Cabeca",
+            videoUrl: "/Treino_Crosfit/O Agachamento Acima Da Cabeca.mp4"
+        },
+        {
+            nome: "O Agachamento Frontal",
+            videoUrl: "/Treino_Crosfit/O Agachamento Frontal.mp4"
+        },
+        {
+            nome: "O Agachamento Livre",
+            videoUrl: "/Treino_Crosfit/O Agachamento Livre.mp4"
+        },
+        {
+            nome: "O Agachamento Frontal",
+            videoUrl: "/Treino_Crosfit/O Agachamento Frontal.mp4"
+        },
+        {
+            nome: "O Arremesso Com A Bola Medicinal",
+            videoUrl: "/Treino_Crosfit/O Arremesso Com A Bola Medicinal.mp4"
+        },
+        {
+            nome: "O Desenvolimento Em Potênciz",
+            videoUrl: "/Treino_Crosfit/O Desenvolimento Em Potênciz.mp4"
+        },
+        {
+            nome: "O Desenvolvimento Técnico",
+            videoUrl: "/Treino_Crosfit/O Desenvolvimento Técnico.mp4"
+        },
+        {
+            nome: "O Desenvolvimento",
+            videoUrl: "/Treino_Crosfit/O Desenvolvimento.mp4"
+        },
+        {
+            nome: "O Levantamento Terra",
+            videoUrl: "/Treino_Crosfit/O Levantamento Terra.mp4"
+        },
+        {
+            nome: "O Terra Sumô Com Puxada Alta",
+            videoUrl: "/Treino_Crosfit/O Terra Sumô Com Puxada Alta.mp4"
+        },
+        {
+            nome: "Overhead Squat com Um Haltere",
+            videoUrl: "/Treino_Crosfit/Overhead Squat com Um Haltere.mp4"
+        },
+        {
+            nome: "Power Snatch com Haltere",
+            videoUrl: "/Treino_Crosfit/Power Snatch com Haltere.mp4"
+        },
+        {
+            nome: "O Agachamento Frontal",
+            videoUrl: "/Treino_Crosfit/O Agachamento Frontal.mp4"
+        },
+        {
+            nome: "Pull-up",
+            videoUrl: "/Treino_Crosfit/Pull-up.mp4"
+        },
+        {
+            nome: "Split Jerk",
+            videoUrl: "/Treino_Crosfit/Split Jerk.mp4"
+        }
     ]
 };
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
